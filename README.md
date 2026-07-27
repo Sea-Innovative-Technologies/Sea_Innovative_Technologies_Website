@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sea Innovative Technologies Website
 
-# Run and deploy your AI Studio app
+Official website for **Sea Innovative Technologies** — Specializing in Software Testing, Manual Testing, Core Java, Selenium, Playwright, and DevOps training.
 
-This contains everything you need to run your app locally.
+## Tech Stack
+- **Frontend**: React 19 + TypeScript + Vite
+- **Styling**: Tailwind CSS + Motion
+- **Icons**: Lucide React
+- **Backend Integration**: Google Apps Script (Google Sheets integration)
 
-View your app in AI Studio: https://ai.studio/apps/ed5f3b87-3525-4ef5-8e12-d8de91fb65ef
+## Quick Start
 
-## Run Locally
+### Prerequisites
+- Node.js (v18+)
 
-**Prerequisites:**  Node.js
-
-
+### Steps
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Configure environment variables (optional for contact form backend):
+   Create a `.env` file based on `.env.example`:
+   ```env
+   VITE_GOOGLE_SCRIPT_URL="your-google-apps-script-url"
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
